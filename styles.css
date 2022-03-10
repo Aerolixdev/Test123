@@ -21,4 +21,5 @@ body {
     padding: 20px 34px;
     margin: 4px 2px;
     cursor: pointer;
+    border-width: 4px;
 }
