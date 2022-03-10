@@ -1,7 +1,7 @@
 * {
 font-family: 'Roboto', sans-serif;
 text-align: center;
-color: green;
+color: blue;
 }
 
 h1 {
@@ -10,4 +10,11 @@ h1 {
 
 body {
     background-color: black;
+}
+.sites {
+    background-color: orange;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 25;
+    display: inline-block;
 }
