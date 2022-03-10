@@ -16,7 +16,7 @@ body {
     border-style: solid;
     border-color: gray;
     border-radius: 25px;
-    display: inline-block;
+    display: block;
     size: 50px;
     padding: 20px 34px;
     margin: 4px 2px;
@@ -24,4 +24,7 @@ body {
     border-width: 4px;
     color: red;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
