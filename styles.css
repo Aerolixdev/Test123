@@ -12,9 +12,10 @@ body {
     background-color: black;
 }
 .sites {
-    background-color: orange;
+    background-color: white;
     border-style: solid;
-    border-color: blue;
+    border-color: gray;
     border-radius: 25;
     display: inline-block;
+    size: 50px;
 }
