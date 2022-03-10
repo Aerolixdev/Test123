@@ -1,8 +1,13 @@
 * {
 font-family: 'Roboto', sans-serif;
 text-align: center;
-color: red;
+color: green;
 }
+
+h1 {
+    color: red;
+}
+
 body {
     background-color: black;
 }
