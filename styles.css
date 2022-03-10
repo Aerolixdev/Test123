@@ -18,4 +18,7 @@ body {
     border-radius: 25;
     display: inline-block;
     size: 50px;
+    padding: 20px 34px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
