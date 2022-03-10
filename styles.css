@@ -15,7 +15,7 @@ body {
     background-color: white;
     border-style: solid;
     border-color: gray;
-    border-radius: 25;
+    border-radius: 25px;
     display: inline-block;
     size: 50px;
     padding: 20px 34px;
