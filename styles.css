@@ -27,8 +27,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    transition: transform 250ms;
+    transition: all .2s ease-in-out; 
 }
 .sites:hover {
-    size: 75px;
+    scale: (1.1);
 }
