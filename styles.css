@@ -27,8 +27,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    transition: all .2s ease-in-out; 
 }
+.sites {
+transition: all .2s ease-in-out; 
+}
+
 .sites:hover {
     scale: (1.1);
 }
