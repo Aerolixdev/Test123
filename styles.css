@@ -1,7 +1,7 @@
 * {
 font-family: 'Roboto', sans-serif;
 text-align: center;
-color: blue;
+color: #1E555C;
 }
 
 h1 {
@@ -9,12 +9,12 @@ h1 {
 }
 
 body {
-    background-color: black;
+    background-color: #44001A;
 }
 .sites {
-    background-color: white;
+    background-color: #FEEfDD;
     border-style: solid;
-    border-color: gray;
+    border-color: #06D6A0;
     border-radius: 25px;
     display: block;
     size: 50px;
@@ -22,7 +22,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-width: 4px;
-    color: red;
+    color: #e9190f;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
