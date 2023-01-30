@@ -1,7 +1,7 @@
 * {
-font-family: 'Roboto', sans-serif;
-text-align: center;
-color: #1E555C;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #1E555C;
 }
 
 h1 {
@@ -11,6 +11,7 @@ h1 {
 body {
     background-color: black;
 }
+
 .sites {
     background-color: #FEEfDD;
     border-style: solid;
@@ -30,6 +31,6 @@ body {
 }
 
 .sites:hover {
-   border-width: 8px;
-   color: #9c0202;
+    border-width: 8px;
+    color: #9c0202;
 }
