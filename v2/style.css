@@ -29,11 +29,11 @@ html {
 
 .banner-text {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   font-size: 7rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  text-shadow: 0 0.2rem 0.5rem #888;
+  text-shadow: 0 0.2rem 0.5rem #656565;
 }
 
 .nav-list {
