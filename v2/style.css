@@ -6,11 +6,6 @@
   font-family: 'Oswald', sans-serif;
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
 #particles-js {
   position: absolute;
   width: 100%;
@@ -20,6 +15,7 @@ canvas {
 
 body {
   cursor: crosshair;
+  background: black;
 }
 
 html {
