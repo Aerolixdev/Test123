@@ -1,14 +1,3 @@
-VANTA.DOTS({
-  el: "#element",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  scaleMobile: 1.00,
-  color: 0xf2f2f2,
-  size: 5.10,
-  spacing: 21.00,
-  showLines: false
-})
 
 const dropdownBg = document.querySelector(".dropdown-bg");
 
