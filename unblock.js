@@ -11,7 +11,11 @@ function tube() {
 function extract(address) {
     newString = address.replace("https://www.youtube.com/watch?v=", "");
     videoid = newString.replace("&authuser=0", "");
-    alert(videoid)
+    embed = "'" + "https://www.youtube.com/embed/" + videoid + "'"
+    string1 = '<iframe width="853" height="480" src='
+    string2 = ' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    iframe = string1 + embed + string2
+    alert(iframe)
 }
 
 
