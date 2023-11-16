@@ -15,7 +15,6 @@ function extract(address) {
     string1 = '<iframe width="853" height="480" src='
     string2 = ' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     iframe = string1 + embed + string2
-    alert(iframe)
     var video = stringToHTML(iframe)
     var win = window.open()
     win.document.body.appendChild(video)

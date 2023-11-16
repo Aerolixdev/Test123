@@ -6,6 +6,12 @@
   font-family: 'Oswald', sans-serif;
 }
 
+#clicky {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 #element {
   opacity: 0.8;
   position: fixed;
