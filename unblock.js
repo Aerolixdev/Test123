@@ -16,7 +16,43 @@ function extract(address) {
     string2 = ' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     iframe = string1 + embed + string2
     alert(iframe)
+    var video = stringToHTML(iframe)
+    var win = window.open()
+    win.document.body.appendChild(video)
 }
+
+var support = (function () {
+    if (!window.DOMParser) return false;
+    var parser = new DOMParser();
+    try {
+        parser.parseFromString('x', 'text/html');
+    } catch (err) {
+        return false;
+    }
+    return true;
+})();
+
+/**
+ * Convert a template string into HTML DOM nodes
+ * @param  {String} str The template string
+ * @return {Node}       The template HTML
+ */
+var stringToHTML = function (str) {
+
+    // If DOMParser is supported, use it
+    if (support) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(str, 'text/html');
+        return doc.body;
+    }
+
+    // Otherwise, fallback to old-school method
+    var dom = document.createElement('div');
+    dom.innerHTML = str;
+    return dom;
+
+};
+
 
 
 /* <iframe width="853" height="480" src="https://www.youtube.com/embed/EtNKG9LUz-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */
